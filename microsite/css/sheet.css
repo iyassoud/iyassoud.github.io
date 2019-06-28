@@ -1,0 +1,26 @@
+ a {
+     background-color: red;
+     font-size: 24pt;
+
+ }
+
+ #p1 {
+     background-color: red;
+     font-size: 30pt;
+ }
+
+ .p1 {
+     background-color: green; padding: 3%;width: 50%; float: left;
+ }
+body{
+    background-color: #d4d3d3;
+}
+#table{
+    background-color: coral;
+}
+#table:hover{
+    background-color: darkmagenta
+}
+a:hover{
+    background-color: crimson
+}

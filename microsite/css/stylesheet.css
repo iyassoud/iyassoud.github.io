@@ -1,0 +1,49 @@
+body {
+    background-image: url(../images/me.jpg);
+    background-size: cover
+}
+
+footer {
+   
+    bottom: 0%;
+    right: 10%;
+    color: white
+}
+
+.jc {
+    display: flex;
+    width: 40.2vw;
+    margin: 12vw 0 0 7vw;
+}
+
+#jc1 {
+    background-image: url(../images/www.berlin1.jpg);
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+    margin-right: 0.2vw;
+}
+#jc1:hover {
+    background-image: url(../images/thank-you-1428147_960_720.png)}
+
+
+#jc1 a {
+    display: inline-block;
+    width: 20vw;
+    height: 20vw;
+}
+#jc2{
+    background-image: url(../images/www.berlin2.jpg);background-size: cover;
+    width: 20vw;
+    height: 20vw;
+}
+#jc2 a {
+    display: inline-block;
+    width: 20vw;
+    height: 20vw;}
+#jc2:hover {
+    background-image: url(../images/Danke-Schon-Aquarell.jpg)}
+
+h1{
+    font-size: 3em;
+}
