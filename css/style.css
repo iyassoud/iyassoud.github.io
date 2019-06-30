@@ -1,89 +1,138 @@
+aside {
+    width: 22%;
+    float: right;
+}
+/*---------------------------------
+Colors and backgrounds
+----------------------------------*/
+.header {
+  background-image: url(../img/people.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+aside {
+      background-image: url(../img/Business-HD-Pictures-768x381.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.header {
+    color: white;
+}
+p,ul,dl{
+    color: blue
+}
+h2,h3,h4{
+    color: #a304fb
+}
+/*----------------------------------
+positions and float
+-----------------------------------*/
+article,.img {
+    float:right
+}
+main {
+    float: left;
+}
+#img{
+ position: absolute;
+    top: 20vw;
+    right:2.7vw
+}
+
+/*---------------------------------
+padding and margin
+----------------------------------*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 .header {
-  background-image: url(../img/head.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 30px;
-    text-align: center;
-    font-size: 2.2vw;
-    color: white;
-    height:23vw
+    padding: 10vw;
 }
-#img{
- position: absolute;
-    top: 13vw;
-    right:10px
+.img{
+    padding-top: 5%;
+    padding-left:2.7vw
+}
+h2,h3,h4{
+    padding-left: 5%;
+    padding-top: 5%
+}
+p,dl,ul {
+    margin: 5%;
+}
+/*---------------------------------
+width and hights
+------------------------------------*/
+img{
+    width: 90%;
 }
 #profile{
     width: 16vw;
-    border: 4px solid #fff;
 }
+.img{
+    width: 30%;
+}
+article{
+    width: 70%; 
+}
+main {
+    width: 78%;
+}
+#what{
+    width: 75%;
+}
+.header {
+    height:30vw
+}
+/*-----------------------------------
+fonts and texts
+------------------------------------*/
 body {
     font-family: Arial, sans-serif;
     font-size: 20px
 }
-#what{
-    width: 78%;
+footer,aside p {
+    font-size: 0.8em;
+    line-height: 1.4em;
 }
-main {
-    width: 78%;
-    float: left;
- 
+p {
+    line-height: 1.3em;
 }
-aside {
-    width: 22%;
-    float: right;
-     background-color:palegreen;
+.header {
+    text-align: center;
+    font-size: 2.2vw;
+}
+/*-----------------------------------
+decorations and styles
+------------------------------------*/
+img{
+border-radius: 10%;
+    border: 4px solid #fff
 }
 .big:after {
   content: "";
   display: table;
-  clear: both;
-     
-}
-p {
-    line-height: 1.3em;
-    margin: 5%;
+  clear: both;    
 }
 @media (max-width: 600px) {
  main, aside {
     width: 100%;
   }
 }
-article{
-    width: 70%; 
+/*-----------------------------------
+links
+----------------------------------------*/
+a.grading{
+    color: crimson;
+    float:right;
+    text-decoration: none
 }
-.img{
-    width: 30%;
+a{
+    text-decoration: none;
+    color:deeppink
 }
-article,.img {
-    float:right
-}
-footer,aside p {
-    font-size: 0.8em;
-    line-height: 1.4em;
-}
-img{
-border-radius: 10%;
-    width: 90%;
-    border: 4px solid #fff
-}
-h2,h3{
-    padding-left: 5%;
-    padding-top: 5%
-}
-.img{
-    padding-top: 5%;
-}
-
-/*
-Colors
-*/
-
-footer {
-    background-color: pink;
+a:hover{
+    color: red
 }
