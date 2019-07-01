@@ -20,10 +20,16 @@ aside {
     color: white;
 }
 p,ul,dl{
-    color: blue
+    color:#2A2357
 }
 h2,h3,h4{
-    color: #a304fb
+    color: blue
+}
+footer{
+    background-image: url(../img/Capture.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white
 }
 /*----------------------------------
 positions and float
@@ -59,7 +65,7 @@ h2,h3,h4{
     padding-left: 5%;
     padding-top: 5%
 }
-p,dl,ul {
+p,dl,ul{
     margin: 5%;
 }
 /*---------------------------------
@@ -86,6 +92,10 @@ main {
 .header {
     height:30vw
 }
+footer{
+    height:30vw;
+    padding: 15vw 0
+}
 /*-----------------------------------
 fonts and texts
 ------------------------------------*/
@@ -93,7 +103,7 @@ body {
     font-family: Arial, sans-serif;
     font-size: 20px
 }
-footer,aside p {
+footer,aside p{
     font-size: 0.8em;
     line-height: 1.4em;
 }
@@ -103,6 +113,9 @@ p {
 .header {
     text-align: center;
     font-size: 2.2vw;
+}
+footer{
+    text-align: center
 }
 /*-----------------------------------
 decorations and styles
@@ -116,7 +129,7 @@ border-radius: 10%;
   display: table;
   clear: both;    
 }
-@media (max-width: 600px) {
+@media (max-width: 740px) {
  main, aside {
     width: 100%;
   }
@@ -125,13 +138,13 @@ border-radius: 10%;
 links
 ----------------------------------------*/
 a.grading{
-    color: crimson;
+    color:#7853D0;
     float:right;
     text-decoration: none
 }
 a{
     text-decoration: none;
-    color:deeppink
+    color:#7853D0
 }
 a:hover{
     color: red
